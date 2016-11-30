@@ -1,0 +1,13 @@
+p{
+    font-size: 100px;
+    font-family: fantasy;
+
+}
+@font-face{
+    font-family: mvfont;
+    src:url();
+}
+/*url中是自己所下载的名为myfont的字体*/
+div{
+    font-family: myfont;
+}

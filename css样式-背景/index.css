@@ -1,0 +1,9 @@
+/*body{
+    background-image: url("ceshi.jpg");
+}*/
+body{
+    background-image: url("ceshi.jpg");
+    background-repeat: no-repeat;
+    background-size: 1000px 1000px;
+
+}

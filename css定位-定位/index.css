@@ -1,0 +1,18 @@
+#position1{
+    width: 100px;
+    height: 100px;
+    background-color: blue;
+    position: absolute;
+    left: 20px;
+    top: 20px;
+    z-index: 3;
+}
+#position2{
+    width: 100px;
+    height: 100px;
+    background-color: sandybrown;
+    position: absolute;
+    left: 10px;
+    top: 10px;
+    z-index: 5;
+}

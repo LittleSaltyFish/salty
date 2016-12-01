@@ -1,0 +1,15 @@
+p {
+    border-radius: 10px;
+    width: 100px;
+    background-color: blueviolet;
+    text-align: center;
+    border: 2px solid blue;
+}
+
+.classid {
+    background-color: blue;
+    width: 100px;
+    height: 100px;
+    text-align: center;
+    box-shadow: 10px 10px 5px #FFccFF;
+}

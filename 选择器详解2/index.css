@@ -1,0 +1,18 @@
+#mydiv {
+    color: blue;
+}
+
+
+/*p strong i {
+    color: red;
+}*/
+
+p>strong>i {
+    color: fuchsia;
+    font-size: 30px;
+}
+
+li+li {
+    font-size: 50px;
+    color: brown；
+}

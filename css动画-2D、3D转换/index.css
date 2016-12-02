@@ -1,0 +1,51 @@
+div {
+    width: 100px;
+    height: 100px;
+    background-color: blue;
+}
+
+.div2 {
+    transform: translate(200px, 100px);
+    -webkit-transform: translate(200px, 100px);
+    /*safari chorm*/
+    -ms-transform: translate(200px, 100px);
+    /*IE*/
+    -o-transform: translate(200px, 100px);
+    /*opera*/
+    -moz-transform: translate(200px, 100px);
+    /*Firefox*/
+}
+
+
+/*.div2 {
+    transform: rotate(200deg);
+    -webkit-transform: rotate(200deg);
+    -ms-transform: rotate(180deg);
+    -o-transform: rotate(180deg);
+    -moz-transform: rotate(180deg);
+}*/
+
+
+/*.div2 {
+    margin-top: 200px;
+    transform: scale(1, 2);
+    -webkit-transform: scale(1, 2);
+    -ms-transform: scale(1, 2);
+    -o-transform: scale(1, 2);
+    -moz-transform: scale(1, 2);
+}*/
+
+
+/*.div2 {
+    transform: skew(20deg, 20deg);
+    -webkit-transform: skew(20deg, 20deg);
+    -ms-transform: skew(50deg, 50deg);
+    -o-transform: skew(50deg, 50deg);
+    -moz-transform: skew(50deg, 50deg);
+}*/
+
+
+/*.div2 {
+    transform: rotateX(120deg);
+    -webkit-transform: rotateX(120deg);
+}*/

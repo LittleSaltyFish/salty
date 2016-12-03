@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title></title>
+    <!--root-->
+    <style>
+         :root {
+            background-color: darkgray;
+        }
+        
+        body {
+            background-color: blue;
+        }
+        /*not*/
+        
+        div *:not(h1) {
+            color: crimson;
+        }
+        /*empty*/
+        
+         :empty {
+            background-color: darkviolet;
+        }
+        /*target*/
+        
+         :target {
+            background-color: orange;
+        }
+    </style>
+    <link href="index.css" type="text/css" rel="stylesheet">
+</head>
+
+<body>
+    <div>
+        <h2>你好么</h2>
+        <h1>这是标题</h1>
+        <p>这是一个p标签</p>
+    </div>
+    <table border="1">
+        <tr>
+            <td>内容1</td>
+            <td>内容2</td>
+        </tr>
+        <tr>
+            <td>内容1</td>
+            <td></td>
+        </tr>
+        <tr>
+            <td></td>
+            <td>内容2</td>
+        </tr>
+    </table>
+    <br/>
+    <a href="#a1">菜单1</a>|
+    <a href="#a2">菜单2</a>|
+    <a href="#a3">菜单3</a>|
+    <a href="#a4">菜单4</a>
+    <div id="a1">
+        <h1>菜单</h1>
+        <p>菜单内容</p>
+    </div>
+    <div id="a2">
+        <h1>菜单</h1>
+        <p>菜单内容</p>
+    </div>
+    <div id="a3">
+        <h1>菜单</h1>
+        <p>菜单内容</p>
+    </div>
+    <div id="a4">
+        <h1>菜单</h1>
+        <p>菜单内容</p>
+    </div>
+</body>
+
+</html>

@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+</head>
+
+<body>
+    <script>
+        function AD() {
+            var control = doucument.forms[0]['text'];
+            var Direction = control.selectionDirection;
+            alert(Direction);
+        }
+    </script>
+    <form>
+        <input type="test" name="text">
+        <input type="button" value="点击我" onclick="AD()">
+    </form>
+</body>
+
+</html>

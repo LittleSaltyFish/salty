@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+</head>
+
+<body>
+    <script>
+        var rangeObj = document.createRange();
+
+        function selectRangeConents() {
+            var div = document.getElementById("div");
+            rangeObj.selectNode(div);
+            // rangeObj.detach();
+        }
+
+        function unselect() {
+            rangeObj.collapse(false);
+        }
+
+        function showRange() {
+            alert(rangeObj.toString());
+        }
+    </script>
+    <div id="div" style="background-color:bisque;width:300px;height:50px">元素中的内容</div>
+    <button onclick="selectRangeConents()">选择元素</button>
+    <button onclick="unselect()">取消元素</button>
+    <button onclick="showRange()">显示Range内容</button>
+</body>
+
+</html>

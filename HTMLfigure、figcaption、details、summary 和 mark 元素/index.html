@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+</head>
+
+<body>
+    <!--figure元素以及figcaption元素-->
+    <figure>
+        <img src="1.jpg" alt="美女">
+        <img src="1.jpg" alt="美女">
+        <img src="1.jpg" alt="美女">
+        <figcaption>美女</figcaption>
+    </figure>
+    <br/>
+    <!--details元素和summary元素-->
+    <script>
+        function detail_onclick(detail) {
+            var p = document.getElementById("p");
+            if (detail.open) {
+                p.style.visibility = "hidden";
+            } else {
+                p.style.visibility = "visible";
+            }
+        }
+    </script>
+    <details id="detail" onclick="detail_onclick(this)">
+        <summary>速度与激情7</summary>
+        <p id="p" style="visibility:hidden">你好萌</p>
+    </details>
+    <!--mark元素-->
+    <p>这是一段文字用来<mark>测试</mark> mark元素</p>
+</body>
+
+</html>

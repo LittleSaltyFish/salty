@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+</head>
+
+<body>
+    <button onclick="clickV()">播放/暂停</button>
+    <button onclick="clickBig()">放大</button>
+    <button onclick="clickSmall()">缩小</button>
+    <br/>
+    <video id="video">
+        <source src="1.mp4">
+        <source src="1.ogg">        
+        您的浏览器不支持
+    </video>
+    <script>
+        var v = document.getElementById("video");
+
+        function clickV() {
+            if (v.paused) {
+                v.play();
+            } else {
+                v.pause();
+            }
+        }
+
+        function clickBig() {
+            v.width = 800;
+            v.height = 800
+        }
+
+        function clickSmall() {
+            v.width = 300;
+            v.height = 300
+        }
+    </script>
+</body>
+
+</html>
